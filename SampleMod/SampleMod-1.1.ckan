@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "$kref"        : "#/ckan/github/<user>/<repo>"
+    "identifier"  : "<identifier>",
+    "name"        : "User-friendly name for the mod",
+    "abstract"    : "A short description of what the mod does",
+    "author"      : "author",
+    "version"     : "1.1",
+    "ksp_version" : "1.0",
+    "license"     : "GPL-3.0",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "MyAuthorName",
+            "install_to" : "GameData",
+            "filter"     : "Bad.File"
+        }
+    ],
+    "resources": {
+        "homepage": "url"
+    },
+    "download": "download_url"
+}
